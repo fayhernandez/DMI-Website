@@ -1,0 +1,108 @@
+@import "bootstrap/bootstrap.less";
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* ===== Primary Styles ========================================================
+   Author: Fay Hernandez
+   ========================================================================== */
+
+@purple: #820782;
+
+.hero-unit {
+  padding: 20px;
+  margin-bottom: 0px;
+  background-color: #FFFFFF;
+  .border-radius(20px);
+  
+  .motto {
+    text-align:center;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 85px;
+    font-family: 'enriqueta';    
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: 'enriqueta'; 
+    color: @purple;   
+    letter-spacing: -1px;
+  }
+
+  hr {
+    margin-top:40px;
+    margin-bottom:20px;
+    border-bottom:5px #444 solid;
+  }
+
+  hr.faint {
+    border-bottom:2px #aaa solid;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 200;
+    font-color: #0000FF;
+    line-height: @baseLineHeight * 1.5;
+  }
+
+  .callout {
+    font-size:24px;
+  }
+
+  strong {
+    color: @purple;
+  }
+
+  .quote {
+  width:940px;
+  float:left;
+  margin:0px 0 60px 0;
+  }
+
+  .left-quote {
+  float:left;
+  background:url(/img/leftquote2.jpg) no-repeat left top;
+  background-position-y: top;
+  width:130px;
+  height:100px;
+  }
+
+  .quote-text {
+  position: relative;
+  top: 25px;
+  float:left;
+  text-align:justify;
+  width:680px;
+  height: 95px;
+  padding-right:115px;
+  background:url(/img/rightquotes.jpg) no-repeat right bottom;
+  }
+
+
+  .quote-name {
+    position: relative;
+    top: 25px;
+    float:right;
+    margin-right:50px;
+    margin-bottom: 50px;
+
+  }
+
+  .pantheon {
+    position: relative;
+    top: 5px;
+    float:right;
+    margin-right:10px;
+    margin-bottom: 10px;
+  }
+}
+
+  

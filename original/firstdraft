@@ -1,0 +1,83 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width">
+  
+  <link href='http://fonts.googleapis.com/css?family=Enriqueta' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet/less" href="less/style.less">
+  
+  <script src="js/libs/less-1.2.1.min.js"></script>
+  
+  <!-- Use SimpLESS (Win/Linux/Mac) or LESS.app (Mac) to compile your .less files
+  to style.css, and replace the 2 lines above by this one:
+
+  <link rel="stylesheet/less" href="less/style.css">
+   -->
+
+  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+      
+    <div class="container">
+      
+
+      <div class="hero-unit">
+        <div class="motto">
+          <h1><img src="img/dmitiny.jpg">
+          <h1>Quaerendo invenietis.</h1>
+        </div>
+        
+        <hr>
+        <div class="quote">
+        <div class="left-quote">&nbsp;</div>
+        <div class="quote-text"><p>Every great dream begins with a dreamer. Always remember, you have within you the <strong>strength</strong>, the <strong>patience</strong>, and the <strong>passion</strong> to reach for the stars to <strong>change the world</strong>.</div>
+        <a href="http://en.wikipedia.org/wiki/Harriet_Tubman"><img class="quote-name" src="/img/harrietsignature.jpg"></a> 
+      </div>
+
+      <hr class="faint">
+
+      <div class="row">
+        <div class="span12">
+          <p class="callout">
+          We are an organization dedicated to the discovery of new technologies and the exploration of the digital unknown.</p> </div>  
+
+      <div class="row">
+        <div class="span6">
+          <p class="callout">
+          Our Product:</p> </div> 
+      
+       
+        <div class="span12">
+          <a href="https://pantheonapp.com"><img src="/img/pantheonfinal.jpg"></a></div>
+        </div>
+
+        
+
+
+      
+
+
+
+
+      <hr class="faint">
+
+
+    </div> <!-- /container -->
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+<script src="js/libs/bootstrap/transition.js"></script>
+<script src="js/libs/bootstrap/collapse.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
